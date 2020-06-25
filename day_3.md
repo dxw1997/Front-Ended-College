@@ -3,12 +3,20 @@
 
 ## 基本文本和字体样式
   用于css的样式文本通常分为两类:字体样式和文本布局风格。字体样式会直接作用到字体上，文本布局通常用于调整布局。
-  可以使用的字体样式属性有color,font-family,font-size, font-size, font-weight, text-transform, text-decoration,
+  可以使用的字体样式属性有color,font-family,font-size, font-weight, text-transform, text-decoration,
   text-shadow;文本的布局属性包括text-align, line-height, letter-spacing, word-sapcing;上面的这些属性都是经常使用的
   一些属性，下面进行比较详细的介绍。
   
+  color属性可以设置一些字体的颜色值，具体数值是合法的css颜色单位。<br>
+  font-family属性会为文本设置一个不同的字体，如果设置的字体不可用，那么将会使用默认字体代替，可使用的字体类型'serif'、'sans-serif'、'monospace'、'cursive'、'fantasy'，如果要查找可用字体,可以去网址[cssfontstack.com](https://www.cssfontstack.com/)去查找。
+也可以使用字体栈的方式来增强代码的健壮性。
+  <br>font-size属性可以用于设置字体大小，虽然有px、em和rem三种单位，但是我觉得直接使用px单位就可以了，复杂情况在去查找文档和资料等。
+em和rem比较的分别是从父单位及根单位开始。
+  <br>font-style属性用来设置文本的斜体表示，normal值、italic值及oblique值分别表示将字体设置为普通字体、斜体及倾斜字体的模拟。
+  <br>font-weight属性用于设置文字的粗体大小。
+
   在熟悉上面的这些属性之后，可以探索的一些属性，现在用不到，将来可能会用到
-  字体样式:
+  <br> <b>字体样式:</b>
   - font-variant:在小型大写字母和普通文本选项之间切换。
   - font-kerning:开启或关闭字体间距选项
   - font-feature-settings:开启或关闭不同的OpenType字体特性
@@ -22,7 +30,7 @@
   - font-stretch:在给定字体的可选拉伸版本中切换
   - text-underline-position:指定下划线的排版位置
   - text-rendering: 尝试执行一些文本渲染优化
-  文本布局样式:
+  <br> <b>文本布局样式:</b>
   - text-indent:在文本内容的第一行前应该留出多少的水平空间。
   - text-overflow:定义如何向用户表示存在被隐藏的溢出内容
   - white-space:定义如何处理元素内部的空白和换行

@@ -13,7 +13,14 @@
   <br>font-size属性可以用于设置字体大小，虽然有px、em和rem三种单位，但是我觉得直接使用px单位就可以了，复杂情况在去查找文档和资料等。
 em和rem比较的分别是从父单位及根单位开始。
   <br>font-style属性用来设置文本的斜体表示，normal值、italic值及oblique值分别表示将字体设置为普通字体、斜体及倾斜字体的模拟。
-  <br>font-weight属性用于设置文字的粗体大小。
+  <br>font-weight属性用于设置文字的粗体大小，可以设置为普通-normal、加粗-bold、lighter或者bolder，也可以使用一些数值粗体值。
+  <br>text-transform设置要转换的字体，属性值包括none、uppercase、lowercase、capitalize（让所有单词首字母大写）和full-width(让所有
+  字形转成全角)
+  <br>text-decoration属性用于设置文本的线装饰，包括没有(none)、下划线(underline)、上划线(overline)和穿过文本（line-through）。
+  <br>text-shadow属性用于为文本应用设置阴影，需要设置的四个值分别是水平位移、垂直位移、模糊半径和阴影的基础颜色；也可以来设置多种阴影。
+  <br>text-align属性用于控制文本如何对齐，可以设置为left、right、center和justify。justify会使文本展开，改变单词之间的差距。
+  <br>line-height属性用于设置每行文本之间的高，通常是字体大小的一定倍数值。
+  <br>letter-spacing或者word-spacing属性用于设置字母和字母之间或者是单词和单词之间的间距。
 
   在熟悉上面的这些属性之后，可以探索的一些属性，现在用不到，将来可能会用到
   <br> <b>字体样式:</b>

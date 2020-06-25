@@ -50,3 +50,33 @@ em和rem比较的分别是从父单位及根单位开始。
   - word-wrap: 指定浏览器是否可以在单词内换行以避免超出范围
   - writing-mode:定义文本行布局为水平还是垂直，以及后继文本流的方向
 
+## css的几个问题
+  css（cascading style sheets）用来对网页进行风格设计和布局设置。
+  <br>浏览器是怎么将css和html变为网页的呢？当然在这个转换过程中，也使用了javascript，但是
+  为了简单，这里不考虑js。浏览器从网络中接收到html文档之后，将它转换成为了DOM，DOM被存储
+  在内存之中，之后浏览器将html的关联资源都取来，包括css等，之后浏览器进行css解析等，之后浏览器
+  就进行了渲染及显示。
+  <br>DOM具体说来是将文档内容解析之后的树结构，[这是DOM对象的一个讲解示例](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+  可以看里面的about the DOM这部分。
+  <br>如果浏览器在解析css文件时碰到了它读不懂的东西，它会将这些东西忽略掉。可以将一些较新的css
+  属性值等用于网页展现的提升。
+  <br>在使用css时，可以使用外部链接，比如<link rel="stylesheet" href="xxx.css">这里css文件换成
+  对应的css文件路径地址就可以了。也可以直接在<head>内部的<style>标签中直接书写css的内容。也可以
+  在标签中直接设置style属性来直接设置css样式。
+  <br>如果两个css选择器的内容一致，可以用逗号将他们隔开，后面书写相同的内容。当选择器错误时，所有
+  选择器内部的内容都会被忽略。选择器的三种类型包括标签、类和ID。除此之外,还有属性或者动作的选择器，
+  包括带有结构的选择器。
+  <br>
+  
+## 附加的网址资源
+  [html5手册](http://caibaojian.com/html5/default.htm)
+  <br>[MDN-CSS介绍]()
+  <br>[MDN-CSS如何工作]()
+  <br>[MDN-CSS语法]()
+  <br>[MDN-选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+  <br>[MDN-简单选择器]()
+  <br>[MDN-属性选择器]()
+  
+  
+  
+  

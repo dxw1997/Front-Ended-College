@@ -63,19 +63,22 @@ em和rem比较的分别是从父单位及根单位开始。
   <br>在使用css时，可以使用外部链接，比如<link rel="stylesheet" href="xxx.css">这里css文件换成
   对应的css文件路径地址就可以了。也可以直接在<head>内部的<style>标签中直接书写css的内容。也可以
   在标签中直接设置style属性来直接设置css样式。
-  <br>如果两个css选择器的内容一致，可以用逗号将他们隔开，后面书写相同的内容。当选择器错误时，所有
+  <br>css选择器是用来选择css样式的作用主体的。如果两个css选择器的内容一致，可以用逗号将他们隔开，后面书写相同的内容。当选择器错误时，所有
   选择器内部的内容都会被忽略。选择器的三种类型包括标签、类和ID。除此之外,还有属性或者动作的选择器，
   包括带有结构的选择器。
-  <br>
-  
-## 附加的网址资源
+  <br>'*'是一个universal选择器，它会选中文档中的所有物体，赋予他们实际的css样式，进行一种全局的改变。
+  <br>':first-child'也是一种类型的选择器。类选择器以'.'为开始。可以在标签选择器后面连用类选择器来更好
+  地设置丰富地样式。使用空格来分割多个类名。ID选择器以'#'开始，在每个文档中只能使用一次。同样也可以在
+  标签选择器后面跟ID选择器。ID选择器拥有最高的设置权限。
+  <br>属性选择器会将有特定属性的物体设置为特定样子。'*='表示拆分出特定单词即可，'~='表示必须有完整单词，
+## 附加的网址资源，对几种选择符的讲解，在菜鸟教程下的笔记有更详细的讲述。
   [html5手册](http://caibaojian.com/html5/default.htm)
   <br>[MDN-CSS介绍]()
   <br>[MDN-CSS如何工作]()
   <br>[MDN-CSS语法]()
   <br>[MDN-选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
-  <br>[MDN-简单选择器]()
-  <br>[MDN-属性选择器]()
+  <br>[MDN-简单选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)
+  <br>[菜鸟教程-属性选择器](https://www.runoob.com/css/css-attribute-selectors.html)
   
   
   

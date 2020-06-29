@@ -1,0 +1,27 @@
+h2 {
+	text-align:center;
+	text-shadow:2px 2px 2px #3399ff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:orange;
+}
+.mainpart {
+	font-family:cursive;
+    float:left;
+    margin-left:30px;
+    height:500px;
+}
+
+.navig {
+    float:left;
+    background-color:#99ff33;
+    height:500px;
+}
+
+#conM {
+	font-size:18px;
+	font-family:;
+	color:red;
+}

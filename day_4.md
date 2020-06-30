@@ -11,5 +11,15 @@
   来设置背景的位置。
   <br>background-attachment属性的默认值为scroll，意思是在默认的情况下，背景图像会随文档滚动，同样可以设置它的值为fixed来
  固定背景图像相对于可视区域的位置。
+ <br>在插入背景图片后，可以使用background-size属性来控制要显示的图片大小，比如长和宽两个属性设置为像素值，也可以使用
+ 'contain'和'cover'两个值，这两个值都保留了长宽比，但是一个会将图像完全包括在内，一个会填满整个区域。
+ <br>可以在background-image属性的后面设置gradient来控制颜色的渐变,附加网址的菜鸟教程讲的比较详细。
+ <br>在使用多个背景图片时也类似于使用单个背景图片，只不过他们之间需要使用逗号分隔开，其他相关控制背景图片的属性在使用时
+ 也用多个逗号隔开即可。
+ <br>border用于设置边界的属性，主要有width、style和color三个子属性，可以设置相应边界的具体形式。style的值可以设置为dashed、
+ solid和dotted三种形式。border-radius属性可以设置边界的几个角的半径。
 
-
+## 附加网址
+  [可以玩一下的css gradient网址](https://cssgradient.io/)
+  [菜鸟教程对css渐变的讲解](https://www.runoob.com/css3/css3-gradients.html)
+  

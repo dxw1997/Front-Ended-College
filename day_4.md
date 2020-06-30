@@ -17,9 +17,23 @@
  <br>在使用多个背景图片时也类似于使用单个背景图片，只不过他们之间需要使用逗号分隔开，其他相关控制背景图片的属性在使用时
  也用多个逗号隔开即可。
  <br>border用于设置边界的属性，主要有width、style和color三个子属性，可以设置相应边界的具体形式。style的值可以设置为dashed、
- solid和dotted三种形式。border-radius属性可以设置边界的几个角的半径。
+ solid、dotted、double和none，意思分别是虚线、点线、实线、双线和没有边界。如果需要对每个边界进行一次设置，需要用top-right-
+ bottom-left的顺序。如果边界风格设置为none,那么再去设置边界的其他属性是没有意义的。border-radius属性可以设置边界的几个角的
+ 半径。
+ <br>list-style-type可以改变列表项的标志类型，它可以使用的值较多，可以看附加网址中的对应网址。list-style-image会对
+ 各个标志使用相应的图像。ul中type常用的值为'disc'、'circle'、'square'和'none'。ol中的type更多是对数字等的修饰，比如
+ 'decimal'、'lower-roman'、'upper-roman'、'lower-alpha'和'upper-alpha'等。list-style-position属性会涉及每个列表项的
+ 放置位置，'inside'会将列表项缩进，'outside'会使得列表项不缩进。同样可以在li标签中使用background-image的相关属性。ol
+ 标签的start属性可以使得列表项从其他值开始计数， revised属性将会使得ol的表项进行倒计数。value属性可以直接作用到li标签上
+ 设置相应li标签的实际显示值。
+ <br>链接标签-a标签，有着四种状态：link、visited、hover和active，在设置标签状态时，hover必须位与link和visited之后，active
+ 状态必须位与hover之后。链接的支持设置属性有color、font-family、background等等。
 
 ## 附加网址
   [可以玩一下的css gradient网址](https://cssgradient.io/)
   <br>[菜鸟教程对css渐变的讲解](https://www.runoob.com/css3/css3-gradients.html)
-  
+  <br>[设置list-style-type时可以使用的属性值](https://www.w3school.com.cn/cssref/pr_list-style-type.asp)
+  <br>[w3school的css背景](https://www.w3school.com.cn/css/css_background.asp)
+  <br>[MDN的背景和边界](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
+  <br>[MDN的样式列表](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/%E4%B8%BA%E6%96%87%E6%9C%AC%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F/Styling_lists)
+

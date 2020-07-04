@@ -24,6 +24,11 @@
  标签的start属性可以使得列表项从其他值开始计数， revised属性将会使得ol的表项进行倒计数。value属性可以直接作用到li标签上
  设置相应li标签的实际显示值。
  <br>&nbsp;&nbsp;&nbsp;链接标签-a标签，有着四种状态：link、visited、hover和active，在设置标签状态时，hover必须位与link和visited之后，active状态必须位与hover之后。链接的支持设置属性有color、font-family、background等等。
+ <br>&nbsp;&nbsp;&nbsp;在css中，子元素一般是从父元素继承属性，但也有不继承属性的情况。如果要避免父元素对子元素的影响，直接进行更加详细的书写就行。
+ <br>&nbsp;&nbsp;&nbsp;派生选择器:依据元素在其位置的上下文关系来定义样式，从而使得标记更加简洁。比如li strong， 这将会选择li标签下的strong标签。
+ <br>&nbsp;&nbsp;&nbsp;':first-child'伪类选择器总会选择第一个子元素。可以进一步学习的几个子选择器：'last-child'、'only-child'、
+ 'invalid'。
+ <br>&nbsp;&nbsp;&nbsp;'::first-line'伪元素选择器。'::before'和'::after'会额外插入一些元素。[这个网址](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)的最下面有一些可以参考的选择器样式。
 
 ## 附加网址
   [可以玩一下的css gradient网址](https://cssgradient.io/)
@@ -32,4 +37,6 @@
   <br>[w3school的css背景](https://www.w3school.com.cn/css/css_background.asp)
   <br>[MDN的背景和边界](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
   <br>[MDN的样式列表](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/%E4%B8%BA%E6%96%87%E6%9C%AC%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F/Styling_lists)
+  <br>[css选择器的英文介绍](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
+  <br>
 

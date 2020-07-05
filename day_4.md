@@ -29,6 +29,17 @@
  <br>&nbsp;&nbsp;&nbsp;':first-child'伪类选择器总会选择第一个子元素。可以进一步学习的几个子选择器：'last-child'、'only-child'、
  'invalid'。
  <br>&nbsp;&nbsp;&nbsp;'::first-line'伪元素选择器。'::before'和'::after'会额外插入一些元素。[这个网址](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)的最下面有一些可以参考的选择器样式。
+ <br>&nbsp;&nbsp;&nbsp;降序选择器，如果子元素的标签结构像所写的这样，就会被选中。
+ <br>&nbsp;&nbsp;&nbsp;孩子选择器，'>'会直接选择孩子标签进行设置。
+ <br>&nbsp;&nbsp;&nbsp;邻接选择器，'+'会选择直接邻接的两个标签的后一个。
+ <br>&nbsp;&nbsp;&nbsp;通用邻接选择器，'~'在选择子标签时并不要求必须相邻。
+ <br>&nbsp;&nbsp;&nbsp;specificity是浏览器在应用css规则时所依据的先后次序，标签选择器优先级更低，类选择器优先级更高。在css选择器具有相同的specificity时，最后一个css选择器会实际发挥效果，这点称为css选择器的顺序性。有一些父标签的css属性会被子标签继承，有些不会。像宽度、外边距、
+ 内边距和边界这些属性都不会继承。
+ <br>&nbsp;&nbsp;&nbsp;控制属性继承的几个值，'inherit'、'initial'和'unset'分别意味着使用父标签的属性值，使用该
+ 默认的属性值和如果由继承来的属性值就使用继承过来的属性值，否则使用初始属性值。
+ <br>&nbsp;&nbsp;&nbsp;设置all属性为'unset'可以恢复所有属性的默认值。
+ <br>浏览器依据三条规则决定怎么应用css选择器:importance、specificity和source order。source order意味着，如果浏览器解析到了具有相同重要程度的代码，那么它将会选择保留位置较为靠后的那个css代码。在specificity中，直接设置style属性的重要性最高，其次是使用ID选择器，其次是使用类选择器、属性选择器和伪类选择器，其次是使用标签选择器。但具体重要性程度的计算仍然比较复杂，具体看是使用了几个几种级别的标签，把相应级别重要性的数值加到最终值上即可。伪元素选择器的重要性是最低的----1。几个较低重要性的标签组合之后，可能会超过特别重要的标签。
+ <br>'!important'放在属性值的后面可以增强该属性，使它持续发挥作用；除非后面有其它'!important'来改写其它属性值。
 
 ## 附加网址
   [可以玩一下的css gradient网址](https://cssgradient.io/)
@@ -38,5 +49,7 @@
   <br>[MDN的背景和边界](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
   <br>[MDN的样式列表](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/%E4%B8%BA%E6%96%87%E6%9C%AC%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%BC%8F/Styling_lists)
   <br>[css选择器的英文介绍](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
-  <br>
+  <br>[选择器的组合](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
+  <br>[编码器的优先级](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+
 

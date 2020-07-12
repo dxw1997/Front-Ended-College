@@ -19,9 +19,13 @@
   <br>&nbsp;&nbsp;在使用padding时，你不能将它的数值设置为负数。
   <br>&nbsp;&nbsp;在inline和block之间有一种折中--inline-block，它不会创建新的行，而且会保存宽度和高度
   这两个属性。
-  next:接着看盒模型。
+  <br>&nbsp;&nbsp;浮动最初是用来再文本内浮动图像的。clear属性可以前面元素浮动对于当前元素的影响。取值可以为'left'、'right'
+  和'both'。有时，浮动会使得内部元素"溢出"，为了改变这种状况，可以将它的父元素的overflow属性设置为auto。
+  next:写html文件，看html等的编码规范
   
 ### 附加网址
 &nbsp;&nbsp;[盒模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-<br>
+<br>&nbsp;&nbsp;[MDN-浮动](https://developer.mozilla.org/zh-CN/docs/<>Learn/CSS/CSS_layout/Floats)
+<br>&nbsp;&nbsp;[学习css布局的网址](http://zh.learnlayout.com/)
+
 

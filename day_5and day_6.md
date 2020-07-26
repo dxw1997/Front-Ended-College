@@ -21,8 +21,23 @@
   这两个属性。
   <br>&nbsp;&nbsp;浮动最初是用来再文本内浮动图像的。clear属性可以前面元素浮动对于当前元素的影响。取值可以为'left'、'right'
   和'both'。有时，浮动会使得内部元素"溢出"，为了改变这种状况，可以将它的父元素的overflow属性设置为auto。
-  next:写html文件，看html等的编码规范
-  
+  <br>
+  <br>&nbsp;&nbsp;为什么需要有编码规范呢？杂乱的编码既不容易理解，也不容易在将来进行维护，而编码规范则有助于解决这两个
+  问题。
+  * ### html编码规范<br>
+    1. 使用四个空格为一个缩进层级，script或者style标签的缩进与script或者style标签的缩进同等级别，建议每行
+    字符不超过120个。
+    2. class的命名必须全字母小写，使用-进行单词分割，代表相应模块或部件的内容或功能，而不应该使用样式信息
+    元素id同样必须保证页面唯一，同时，id和class应该尽量地短。
+    3. class应该具有明确的语义和样式，否则容易导致css泛滥，在javascript中使用id和属性选择是更好的方式。
+    在同一个页面上，应该避免使用相同的name和id。
+    4. 标签名必须使用小写字母；无需自闭合的标签，不允许自闭合，可选闭合的标签，必须使用闭合标签，在代码体积要求严格的地方
+    可以例外；标签使用必须符合标签嵌套规则，同时每个标签的使用必须符合相应语义。尽量减少标签的使用，尽量使用css完成表格布局
+    的效果。
+    5. 属性名必须使用小写字母，属性值则必须使用双引号包围。布尔类型的属性，建议不添加属性值，自定义属性建议以xxx-为前缀，推荐
+    使用‘data-’。
+  * ### css编码规范
+  * ### javascript编码规范
 ### 附加网址
 &nbsp;&nbsp;[盒模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 <br>&nbsp;&nbsp;[MDN-浮动](https://developer.mozilla.org/zh-CN/docs/<>Learn/CSS/CSS_layout/Floats)

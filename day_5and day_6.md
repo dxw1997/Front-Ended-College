@@ -36,6 +36,18 @@
     的效果。
     5. 属性名必须使用小写字母，属性值则必须使用双引号包围。布尔类型的属性，建议不添加属性值，自定义属性建议以xxx-为前缀，推荐
     使用‘data-’。
+    6. 建议启用IE Edge模式，建议在html标签上设置正确的lang属性。页面必须明确指定字符编码，指定字符编码的meta必须是head的
+    第一个直接子元素，在编码时建议使用无BOM的utf-8编码。在引入css时，必须指名rel="stylesheet",在引入css和javascript时并无需
+    指名type属性。展现定义放置在外部css中，行为定义放置在外部javascript中，结构-样式-行为的代码分离将有助于提高代码的可阅读性和
+    可维护性。建议在head中引入所有需要的css资源，javascript最好放在页面的尾部。
+    7. 页面必须有title标签声明标题，title必须作为head的直接子元素，位于charset之后。必须保证favicon.ico可访问，通常可以使用两种
+    方法来实现，一种是在web server根目录下放置favicon.ico，另一种是使用Link来指定favicon。为保证页面对移动设备友好，建议指定页面
+    的viewport。
+    8. img标签的src取值不应该为空，避免为img添加不必要的title属性，应该为重要图片添加alt属性，应该添加width属性和height属性，
+    有下载需求的图片应该采用img标签实现，无下载需求的图片采用css背景图实现。
+    9. 有文本标题的控件必须使用label标签将其与其标题相关联。使用button元素时，必须指名type属性值，建议尽量不要使用按钮类元素的
+    name属性。使用javascript进行表单提交时，应使原生提交功能正常工作。
+    10. 要优先使用audio和video来定义音视频元素。
   * ### css编码规范
   * ### javascript编码规范
 ### 附加网址

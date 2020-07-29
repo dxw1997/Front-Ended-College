@@ -67,5 +67,5 @@
 &nbsp;&nbsp;[盒模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 <br>&nbsp;&nbsp;[MDN-浮动](https://developer.mozilla.org/zh-CN/docs/<>Learn/CSS/CSS_layout/Floats)
 <br>&nbsp;&nbsp;[学习css布局的网址](http://zh.learnlayout.com/)
-
+<br>&nbsp;&nbsp;[html等的编码规范](https://github.com/ecomfe/spec)
 
